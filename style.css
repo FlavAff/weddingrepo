@@ -1,0 +1,45 @@
+/* Set global background */
+body {
+    background-image: url('background.jpg'); /* Replace with your arch background */
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+/* Navigation bar */
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: navy;
+    font-weight: bold;
+}
+
+/* Content styling */
+main {
+    background: rgba(255, 255, 255, 0.8); /* Slight white overlay */
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 600px;
+    border-radius: 15px;
+}
+
+/* Logo styling */
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
